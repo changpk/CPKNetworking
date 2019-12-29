@@ -1,0 +1,6 @@
+framework module CPKNetworking {
+  umbrella header "CPKNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

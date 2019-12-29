@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15CBABCE320379FA425FB1D8E08D45EA /* CPKNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E0A69A9B84F6D087938A4F46073D7 /* CPKNetworking-dummy.m */; };
+		1E60E5DDAC4A8F76858B330A9FFAE8EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		26E1C45547D5FD8160BB19E5E378EE68 /* CPKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D02D8EEF0E7282536CDC6D8D86B996 /* CPKManager.m */; };
+		2819781B2534173DD3E835B08DC7E27A /* Pods-CPKNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8480C2527ACE54F7400EE0EC304F66FA /* Pods-CPKNetworking_Tests-dummy.m */; };
+		4052DF79C2670D3250686A4C29AA7E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		560D3483EDE7FAD64C1D957E4FBC2996 /* CPKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C73333DAC5B47CFBAF473D86320F8CCA /* CPKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60F3A4D62938C38BA9502C4B6E4D99FD /* Pods-CPKNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 821691D13E5F24BDADF7801BC60DBB42 /* Pods-CPKNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66833DEF4D26E65149110CD0DE433E38 /* Pods-CPKNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC1683FC26C3C32CEA6C6318E3298F9 /* Pods-CPKNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E20871AC269C4B2B0A5F3022BAD2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77B2F4BCB8CB40270EBEEFA8B2AA7B27 /* Pods-CPKNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 904BB9D2FC2E34765500946ED289B45B /* Pods-CPKNetworking_Example-dummy.m */; };
+		871E0A7428D9B082B21B32929ABD9D25 /* CPKNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4954BDB883EE3BBF0B75144A5292C9E4 /* CPKNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CBAE0CC8EB8EF1254C90583840534CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88787B415C06EF4E6BA30B076A2784B;
+			remoteInfo = CPKNetworking;
+		};
+		9B429EF799FDEA89ED62D04AAFEA714E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EAA55F97F907472F714FC31DB985B79;
+			remoteInfo = "Pods-CPKNetworking_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1118B10438B8FABDA3108D31141A4C24 /* Pods_CPKNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPKNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E620398D0EF528D708FFB7397E40223 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2761B96712471AE5660A70F0B1F5A013 /* Pods_CPKNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPKNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D37985995E648A34E11205CA81409F3 /* Pods-CPKNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPKNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2F518862A899FDB6979BBEC78C50D554 /* Pods-CPKNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPKNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		451FA9F19A4879E52714BC51B6FCCCA5 /* Pods-CPKNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPKNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4954BDB883EE3BBF0B75144A5292C9E4 /* CPKNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPKNetworking-umbrella.h"; sourceTree = "<group>"; };
+		4C9BB5BE97AD2F4227F9B1C93299D446 /* Pods-CPKNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPKNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		549982869445F68411DFA6AC7E59E07F /* Pods-CPKNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPKNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AC1683FC26C3C32CEA6C6318E3298F9 /* Pods-CPKNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPKNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
+		60982F586E49D47C78D211E1C7619866 /* Pods-CPKNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPKNetworking_Example.modulemap"; sourceTree = "<group>"; };
+		703DABDE8F48AE1001923F0AAA089220 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		77D02D8EEF0E7282536CDC6D8D86B996 /* CPKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CPKManager.m; path = CPKNetworking/Classes/CPKManager.m; sourceTree = "<group>"; };
+		7D70C9F375B87FE58F06B6778D37B174 /* Pods-CPKNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPKNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		821691D13E5F24BDADF7801BC60DBB42 /* Pods-CPKNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPKNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8480C2527ACE54F7400EE0EC304F66FA /* Pods-CPKNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPKNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C2E0A69A9B84F6D087938A4F46073D7 /* CPKNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPKNetworking-dummy.m"; sourceTree = "<group>"; };
+		904BB9D2FC2E34765500946ED289B45B /* Pods-CPKNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPKNetworking_Example-dummy.m"; sourceTree = "<group>"; };
+		9713B5D6B55F933C7FA98D466D149E7B /* Pods-CPKNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPKNetworking_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF5565286B1FCFB3D2E2FAABD6C8DC8 /* CPKNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPKNetworking.xcconfig; sourceTree = "<group>"; };
+		B2A15282BCE4D3B0A5508B3A0F0BC760 /* CPKNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CPKNetworking.modulemap; sourceTree = "<group>"; };
+		B8E15096C9628D85B4D34B5B5698BFFA /* CPKNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPKNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD936D55B1C75A4E8269852600B1F859 /* Pods-CPKNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPKNetworking_Example-Info.plist"; sourceTree = "<group>"; };
+		C73333DAC5B47CFBAF473D86320F8CCA /* CPKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPKManager.h; path = CPKNetworking/Classes/CPKManager.h; sourceTree = "<group>"; };
+		CB6A3CD61868BBA0BE9515B40164B5B6 /* Pods-CPKNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPKNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
+		CC9348FDFD424B69EA1CC24B4153700B /* Pods-CPKNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPKNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5BD05CAD65502D3351F245792CD6C10 /* CPKNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CPKNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		DC94299D6E1A52BF9067CDFC36F84CBD /* Pods-CPKNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPKNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DEAAC293DF37D178866F9F9D7428C2E0 /* CPKNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CPKNetworking-Info.plist"; sourceTree = "<group>"; };
+		E428E4635AC4BBA5C370B334246272D1 /* Pods-CPKNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPKNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0B373A5AD15C01A21F8E3C27D5A152E /* CPKNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPKNetworking-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28DDE1CCE6924F789FCF7C63623C704D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E60E5DDAC4A8F76858B330A9FFAE8EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6971F090C4B34877A6D441F725E5EDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4052DF79C2670D3250686A4C29AA7E64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB45B576D739711ECB2A8AFE37586EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E20871AC269C4B2B0A5F3022BAD2342 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A079172B6D016204FCAB75881CA5575 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61204489A739D0398FD22C009FCD5161 /* CPKNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		50750BA0B2C065B3BA27507B27917E0E /* Pods-CPKNetworking_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9713B5D6B55F933C7FA98D466D149E7B /* Pods-CPKNetworking_Tests.modulemap */,
+				549982869445F68411DFA6AC7E59E07F /* Pods-CPKNetworking_Tests-acknowledgements.markdown */,
+				CC9348FDFD424B69EA1CC24B4153700B /* Pods-CPKNetworking_Tests-acknowledgements.plist */,
+				8480C2527ACE54F7400EE0EC304F66FA /* Pods-CPKNetworking_Tests-dummy.m */,
+				CB6A3CD61868BBA0BE9515B40164B5B6 /* Pods-CPKNetworking_Tests-Info.plist */,
+				821691D13E5F24BDADF7801BC60DBB42 /* Pods-CPKNetworking_Tests-umbrella.h */,
+				2F518862A899FDB6979BBEC78C50D554 /* Pods-CPKNetworking_Tests.debug.xcconfig */,
+				DC94299D6E1A52BF9067CDFC36F84CBD /* Pods-CPKNetworking_Tests.release.xcconfig */,
+			);
+			name = "Pods-CPKNetworking_Tests";
+			path = "Target Support Files/Pods-CPKNetworking_Tests";
+			sourceTree = "<group>";
+		};
+		5CDB743982F44D54C6D885A7106FACE7 /* Pods-CPKNetworking_Example */ = {
+			isa = PBXGroup;
+			children = (
+				60982F586E49D47C78D211E1C7619866 /* Pods-CPKNetworking_Example.modulemap */,
+				7D70C9F375B87FE58F06B6778D37B174 /* Pods-CPKNetworking_Example-acknowledgements.markdown */,
+				4C9BB5BE97AD2F4227F9B1C93299D446 /* Pods-CPKNetworking_Example-acknowledgements.plist */,
+				904BB9D2FC2E34765500946ED289B45B /* Pods-CPKNetworking_Example-dummy.m */,
+				E428E4635AC4BBA5C370B334246272D1 /* Pods-CPKNetworking_Example-frameworks.sh */,
+				BD936D55B1C75A4E8269852600B1F859 /* Pods-CPKNetworking_Example-Info.plist */,
+				5AC1683FC26C3C32CEA6C6318E3298F9 /* Pods-CPKNetworking_Example-umbrella.h */,
+				451FA9F19A4879E52714BC51B6FCCCA5 /* Pods-CPKNetworking_Example.debug.xcconfig */,
+				2D37985995E648A34E11205CA81409F3 /* Pods-CPKNetworking_Example.release.xcconfig */,
+			);
+			name = "Pods-CPKNetworking_Example";
+			path = "Target Support Files/Pods-CPKNetworking_Example";
+			sourceTree = "<group>";
+		};
+		61204489A739D0398FD22C009FCD5161 /* CPKNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C73333DAC5B47CFBAF473D86320F8CCA /* CPKManager.h */,
+				77D02D8EEF0E7282536CDC6D8D86B996 /* CPKManager.m */,
+				6B4E9384AAA1A0ADE896FF6056266975 /* Pod */,
+				BDBCBB262E008586ABE27DED3002ED6A /* Support Files */,
+			);
+			name = CPKNetworking;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6B4E9384AAA1A0ADE896FF6056266975 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD05CAD65502D3351F245792CD6C10 /* CPKNetworking.podspec */,
+				1E620398D0EF528D708FFB7397E40223 /* LICENSE */,
+				703DABDE8F48AE1001923F0AAA089220 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		88300ADBFD6E8D973729F91BC6133A9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CDB743982F44D54C6D885A7106FACE7 /* Pods-CPKNetworking_Example */,
+				50750BA0B2C065B3BA27507B27917E0E /* Pods-CPKNetworking_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C22C51BB919677AD92469C1C06EAE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8E15096C9628D85B4D34B5B5698BFFA /* CPKNetworking.framework */,
+				1118B10438B8FABDA3108D31141A4C24 /* Pods_CPKNetworking_Example.framework */,
+				2761B96712471AE5660A70F0B1F5A013 /* Pods_CPKNetworking_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBCBB262E008586ABE27DED3002ED6A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2A15282BCE4D3B0A5508B3A0F0BC760 /* CPKNetworking.modulemap */,
+				9DF5565286B1FCFB3D2E2FAABD6C8DC8 /* CPKNetworking.xcconfig */,
+				8C2E0A69A9B84F6D087938A4F46073D7 /* CPKNetworking-dummy.m */,
+				DEAAC293DF37D178866F9F9D7428C2E0 /* CPKNetworking-Info.plist */,
+				F0B373A5AD15C01A21F8E3C27D5A152E /* CPKNetworking-prefix.pch */,
+				4954BDB883EE3BBF0B75144A5292C9E4 /* CPKNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CPKNetworking";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1A079172B6D016204FCAB75881CA5575 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8C22C51BB919677AD92469C1C06EAE7B /* Products */,
+				88300ADBFD6E8D973729F91BC6133A9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2105DDCB4398E5F7B2C49B000A348EB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66833DEF4D26E65149110CD0DE433E38 /* Pods-CPKNetworking_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4019AE2A844DCC205CD8EFFE64193A95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F3A4D62938C38BA9502C4B6E4D99FD /* Pods-CPKNetworking_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812DDFD1A5FF6C8D287A9CABAE69620F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560D3483EDE7FAD64C1D957E4FBC2996 /* CPKManager.h in Headers */,
+				871E0A7428D9B082B21B32929ABD9D25 /* CPKNetworking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D7EC42B620CF557CDF43A668F8A146D /* Pods-CPKNetworking_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F24A1DADDE1CCCED29431B3DAE68442 /* Build configuration list for PBXNativeTarget "Pods-CPKNetworking_Tests" */;
+			buildPhases = (
+				4019AE2A844DCC205CD8EFFE64193A95 /* Headers */,
+				93616375028BA16FFB1E912F691ED307 /* Sources */,
+				9BB45B576D739711ECB2A8AFE37586EC /* Frameworks */,
+				8A86CF69AC548AD414C13990E9268C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AEA2E511573C799EEFB8F0EA39E4949 /* PBXTargetDependency */,
+			);
+			name = "Pods-CPKNetworking_Tests";
+			productName = "Pods-CPKNetworking_Tests";
+			productReference = 2761B96712471AE5660A70F0B1F5A013 /* Pods_CPKNetworking_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7EAA55F97F907472F714FC31DB985B79 /* Pods-CPKNetworking_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25181963416566A146DB9A66A8C8E9AC /* Build configuration list for PBXNativeTarget "Pods-CPKNetworking_Example" */;
+			buildPhases = (
+				2105DDCB4398E5F7B2C49B000A348EB3 /* Headers */,
+				31B2F7DE5D014470685B88FB627DEC68 /* Sources */,
+				6971F090C4B34877A6D441F725E5EDC1 /* Frameworks */,
+				2281C4003A3B17F45DCE8C30EF63A9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E101DBCEE7C7E853C0577BD0CA284098 /* PBXTargetDependency */,
+			);
+			name = "Pods-CPKNetworking_Example";
+			productName = "Pods-CPKNetworking_Example";
+			productReference = 1118B10438B8FABDA3108D31141A4C24 /* Pods_CPKNetworking_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C88787B415C06EF4E6BA30B076A2784B /* CPKNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B42B4932B4A0ABBFD344B102BFC7BD /* Build configuration list for PBXNativeTarget "CPKNetworking" */;
+			buildPhases = (
+				812DDFD1A5FF6C8D287A9CABAE69620F /* Headers */,
+				72F073FF182D948E816B3BB549893AFB /* Sources */,
+				28DDE1CCE6924F789FCF7C63623C704D /* Frameworks */,
+				64758DC966B3EE6A320157916E849637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPKNetworking;
+			productName = CPKNetworking;
+			productReference = B8E15096C9628D85B4D34B5B5698BFFA /* CPKNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8C22C51BB919677AD92469C1C06EAE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88787B415C06EF4E6BA30B076A2784B /* CPKNetworking */,
+				7EAA55F97F907472F714FC31DB985B79 /* Pods-CPKNetworking_Example */,
+				4D7EC42B620CF557CDF43A668F8A146D /* Pods-CPKNetworking_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2281C4003A3B17F45DCE8C30EF63A9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64758DC966B3EE6A320157916E849637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A86CF69AC548AD414C13990E9268C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31B2F7DE5D014470685B88FB627DEC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B2F4BCB8CB40270EBEEFA8B2AA7B27 /* Pods-CPKNetworking_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F073FF182D948E816B3BB549893AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E1C45547D5FD8160BB19E5E378EE68 /* CPKManager.m in Sources */,
+				15CBABCE320379FA425FB1D8E08D45EA /* CPKNetworking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93616375028BA16FFB1E912F691ED307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2819781B2534173DD3E835B08DC7E27A /* Pods-CPKNetworking_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AEA2E511573C799EEFB8F0EA39E4949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CPKNetworking_Example";
+			target = 7EAA55F97F907472F714FC31DB985B79 /* Pods-CPKNetworking_Example */;
+			targetProxy = 9B429EF799FDEA89ED62D04AAFEA714E /* PBXContainerItemProxy */;
+		};
+		E101DBCEE7C7E853C0577BD0CA284098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CPKNetworking;
+			target = C88787B415C06EF4E6BA30B076A2784B /* CPKNetworking */;
+			targetProxy = 5CBAE0CC8EB8EF1254C90583840534CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F06C3B89B981979C2BE6675D9A8C966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451FA9F19A4879E52714BC51B6FCCCA5 /* Pods-CPKNetworking_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPKNetworking_Example/Pods-CPKNetworking_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPKNetworking_Example/Pods-CPKNetworking_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		72E6F6D3326BB768C30968026E22F886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F518862A899FDB6979BBEC78C50D554 /* Pods-CPKNetworking_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPKNetworking_Tests/Pods-CPKNetworking_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPKNetworking_Tests/Pods-CPKNetworking_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		80E8328FE55D4BF727DC748AB5A4798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF5565286B1FCFB3D2E2FAABD6C8DC8 /* CPKNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPKNetworking/CPKNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPKNetworking/CPKNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CPKNetworking/CPKNetworking.modulemap";
+				PRODUCT_MODULE_NAME = CPKNetworking;
+				PRODUCT_NAME = CPKNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A7A84B7C08AC4C2E5DE63108D02C716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF5565286B1FCFB3D2E2FAABD6C8DC8 /* CPKNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPKNetworking/CPKNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPKNetworking/CPKNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CPKNetworking/CPKNetworking.modulemap";
+				PRODUCT_MODULE_NAME = CPKNetworking;
+				PRODUCT_NAME = CPKNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A155509150E73A4C8F791F5FB2BD6D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC94299D6E1A52BF9067CDFC36F84CBD /* Pods-CPKNetworking_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPKNetworking_Tests/Pods-CPKNetworking_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPKNetworking_Tests/Pods-CPKNetworking_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E392ADE58557B7565BD850D4197AFE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D37985995E648A34E11205CA81409F3 /* Pods-CPKNetworking_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPKNetworking_Example/Pods-CPKNetworking_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPKNetworking_Example/Pods-CPKNetworking_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25181963416566A146DB9A66A8C8E9AC /* Build configuration list for PBXNativeTarget "Pods-CPKNetworking_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F06C3B89B981979C2BE6675D9A8C966 /* Debug */,
+				E392ADE58557B7565BD850D4197AFE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F24A1DADDE1CCCED29431B3DAE68442 /* Build configuration list for PBXNativeTarget "Pods-CPKNetworking_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E6F6D3326BB768C30968026E22F886 /* Debug */,
+				A155509150E73A4C8F791F5FB2BD6D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B42B4932B4A0ABBFD344B102BFC7BD /* Build configuration list for PBXNativeTarget "CPKNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7A84B7C08AC4C2E5DE63108D02C716 /* Debug */,
+				80E8328FE55D4BF727DC748AB5A4798A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - CPKNetworking (0.1.0)
+
+DEPENDENCIES:
+  - CPKNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  CPKNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CPKNetworking: 71e5c3bd83ea3d03a9b49335236d233683f0d2bd
+
+PODFILE CHECKSUM: fe2b2e803acb024d6debc76918296ad9d2ebf841
+
+COCOAPODS: 1.7.5

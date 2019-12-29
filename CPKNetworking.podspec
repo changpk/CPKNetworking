@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'changpengkai' => 'x670990709@126.com' }
-  s.source           = { :git => 'https://github.com/changpengkai/CPKNetworking.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/changpk/CPKNetworking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
